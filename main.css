@@ -10,7 +10,7 @@
 
 p{
     font-weight: 300;
-    color: #111;
+    color: #fff;
 }
 body{
     min-height: 1000px;
@@ -22,7 +22,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(img/backg.jpg);
+    background: url(img/gg.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -42,7 +42,7 @@ body{
 .btn{
     font-size: 1em;
     color: #fff;
-    background: #ff0157;
+    background: #1601ff;
     display: inline-block;
     padding: 10px 30px;
     margin-top: 40px;
@@ -59,7 +59,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    padding: 20px 100px;
     z-index: 10000;
     display: flex;
     justify-content: space-between;
@@ -81,7 +81,7 @@ header.sticky .logo{
     color: #111;
 }
 header .logo span{
-    color:#ff0157;
+    color:#1601ff;
 }
 header .navigation{
     position: relative;
@@ -100,29 +100,33 @@ header.sticky .navigation li a{
     color: #111;
 }
 header .navigation li a:hover{
-color: #ff0157;
+color: #1601ff;
 }
 section{
     padding: 100px;
+}
+.about{
+    background-color: #0d092d;
 }
 .row{
     position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
 }
 .row .col50{
     position: relative;
     width: 48%;
 }
 .titleText{
-    color: #111;
+    color: #fff;
     font-size: 2em;
     font-weight: 700;
     margin-bottom: 75px;
 }
 .titleText span{
-    color: #ff0157;
+    color: #1601ff;
     font-weight: 700;
     font-size: 1.5em;
 }
@@ -149,10 +153,14 @@ section{
     align-items: center;
     flex-direction: column;
 }
+.menu{
+    background: url(img/gg.jpeg);
+    background-position: center;
+}
 .menu .content{
     display: flex;
     justify-content: center;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: wrap;
     margin-top: 40px;
 }
@@ -268,11 +276,11 @@ section{
     margin-top: 20px;
     color: #111;
     font-size: 1.2em;
-    color: #ff0157;
+    color: #1601ff;
     font-weight: 700;
 }
 .contact{
-    background: url(img/bg.jpg);
+    background: url(img/gg.jpg);
     background-size: cover;
     background-position: top;
 }
@@ -309,7 +317,7 @@ section{
 .contactForm .inputBox input[type="submit"]{
     font-size: 0.8em;
     color: #fff;
-    background: #ff0157;
+    background: #1601ff;
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
@@ -329,7 +337,7 @@ section{
     color: #333;
 }
 .copyrightText a{
-    color: #ff0157;
+    color: #1601ff;
     font-weight: 500;
     text-decoration: none;
 }
